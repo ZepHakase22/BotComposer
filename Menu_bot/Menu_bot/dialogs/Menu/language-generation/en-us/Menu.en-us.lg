@@ -1,0 +1,12 @@
+[import](common.lg)
+
+# SendActivity_jIo9iM()
+[Activity
+    Text = ${SendActivity_jIo9iM_text()}
+]
+
+# SendActivity_jIo9iM_text()
+- ```Today's menu
+ \- Pizza
+ \- Burger and fries
+ \- Chicken sandwich```

@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "G9bAaY",
+    "name": "Menu",
+    "comment": "A dialog that shows the menu."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "3DWeoR"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "jIo9iM"
+          },
+          "activity": "${SendActivity_jIo9iM()}"
+        }
+      ]
+    }
+  ],
+  "generator": "Menu.lg",
+  "recognizer": "Menu.lu.qna",
+  "id": "Menu"
+}
